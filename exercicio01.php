@@ -12,26 +12,41 @@
     <h1>Exercicio PHP</h1>
 
     <?php
-    $dados = [
+
+
+    /* Array ASSOCIATIVO */
+    $dados1 = [
         "nome_usuario" => "chapolin.colorado",
         "senha" => 123,
         "idade" => 30,
         "cidade" => "São Paulo",
-        "telefone" => ["(11)999-5488","(11)924-5468"]
+        "telefone" => ["(11)999-5488", "(11)924-5468"]
 
     ];
+
+    /* Array NUMÉRICO/INDEXADO */
+    $dados2 = [
+        'chapolin.colorado',
+        '123teste',
+        30,
+        'São Paulo',
+        ['(11)999-5478", "(11)924-5478']
+
+    ]
     ?>
 
     <hr>
 
-    <ol>
-        <li>Nome de Usuário : <?= $dados["nome_usuario"] ?></li>
-        <li>Senha : <?= $dados["senha"] ?></li>
-        <li>Idade : <?= $dados["idade"] ?></li>
-        <li>Cidade : <?= $dados["cidade"] ?></li>
-        <li>1 Telefone : <?= $dados["telefone"][0] ?></li>
-        <li>2 Telefone : <?= $dados["telefone"][1] ?></li>
+   <!--  Array ASSOCIATIVO   -->
+    <ol>   
+        <li>Nome de Usuário : <?= $dados1["nome_usuario"] ?></li>
+        <li>Senha : <?= $dados1["senha"] ?></li>
+        <li>Idade : <?= $dados1["idade"] ?></li>
+        <li>Cidade : <?= $dados1["cidade"] ?></li>
+        <li>1 Telefone : <?= $dados1["telefone"][0] ?></li>
+        <li>2 Telefone : <?= $dados1["telefone"][1] ?></li>
     </ol>
+
 
 </body>
 
