@@ -38,7 +38,7 @@
 
         <hr>
 
-        <!--  Array UMÉRICO/INDEXADO   -->
+        <!--  Array NUMÉRICO/INDEXADO   -->
         <ol>
             <li>Nome de Usuário : <?= $dados1["nome_usuario"] ?></li>
             <li>Senha : <?= $dados1["senha"] ?></li>
