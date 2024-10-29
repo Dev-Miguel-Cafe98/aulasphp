@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -52,7 +54,7 @@
     </div>
 
 
-
+            <?php include "redes-sociais.html" ?>
 </body>
 
 </html>

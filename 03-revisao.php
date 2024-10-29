@@ -1,5 +1,6 @@
+<?php include "recursos-externos.php"; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +13,13 @@
 <body>
     <h1>Revisando o básico</h1>
     <hr>
-
+<ul>
+    <?php foreach($tecnologias as $tec){ ?>
+        <li> <?=$tec ?></li>
+    <?php }?>
+    
+</ul>
+    <hr>
     <?php
     /* Criar duas variáveis e /ou constantes */
     const NOME = "Chapolin Colorado";
