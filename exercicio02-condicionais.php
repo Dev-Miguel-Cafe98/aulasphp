@@ -31,7 +31,7 @@
     </p>
 
     <p>Novo Salario: R$
-        <?= number_format($novosalario, 2, ",", ".") ?>
+        <?= number_format($salarioAjuste, 2, ",", ".") ?>
     </p>
     <hr>
     <!-- Entrada de dados, informação do salário atual -->
@@ -55,7 +55,7 @@
     </p>
 
     <p>Novo Salario: R$
-        <?= number_format($novosalario, 2, ",", ".") ?>
+        <?= number_format($salarioAjusteD, 2, ",", ".") ?>
     </p>
 
 
